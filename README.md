@@ -11,9 +11,9 @@ The program can also be executed by using the Makefile. The Makefile defines 5 o
 
 	This option will execute the simulation program using the default instruction set files which were included as part of the project document. These input files are located in the default folder.
 
-2. make run_test1
+2. `make run_test1`
 
-	This option will execute the simulation program using the Test Case 1 files. These input files are located in the test_case_1 folder.
+> This option will execute the simulation program using the Test Case 1 files. These input files are located in the test_case_1 folder.
 
 3. make run_test2
 
@@ -27,10 +27,13 @@ The program can also be executed by using the Makefile. The Makefile defines 5 o
 
 	This option will delete the result.txt file, cleaning the directory and leaving only the necessary files for executing the program.
 Executing the simulation program through the Makefile will create a result.txt file with the output in the same directory as the simulation.py program. 
+
+---
  
 ## Method 2 – Directly from the Command-line with custom configuration and data files:
 
 The program can be run directly from the command-line, by passing in the 4 necessary arguments as follows in the command-line:
+
 `python3 ./simulator.py <inst_file.txt> <data_file.txt> <config_file.txt> <result_file.txt>`
 	
 The above command will use the first 3 arguments `<inst_file.txt>, <data_file.txt> & <config_file.txt>` to set up and run the scoreboard simulation, and then produce an output in the `<result_file.txt>` file defined in the 4th argument. 
