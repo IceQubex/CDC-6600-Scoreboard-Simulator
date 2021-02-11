@@ -34,7 +34,15 @@ Executing the simulation program through the Makefile will create a `result.txt`
 
 The program can be run directly from the command-line, by passing in the 4 necessary arguments as follows in the command-line:
 
-`python3 ./simulator.py <inst_file.txt> <data_file.txt> <config_file.txt> <result_file.txt>`
+`python3 simulator.py <inst_file.txt> <data_file.txt> <config_file.txt> <result_file.txt>`
 	
 The above command will use the first 3 arguments `<inst_file.txt>, <data_file.txt> & <config_file.txt>` to set up and run the scoreboard simulation, and then produce an output in the `<result_file.txt>` file defined in the 4th argument. 
 
+Additionally, you can adjust the verbosity of the program in the terminal by providing an optional 5th argument. (By default, this value is set to 2). 
+- If the verbosity value is set to 0, the simulation program will display minimal output. 
+- If the verbosity value is set to 1, the simulation program will display the status of the scoreboard and its active instructions at each clock cycle. 
+- If the verbosity value is set to 2, the simulation program will display the status of the scoreboard, and also display the active instructions in the pipeline at each clock cycle.
+
+Below is the format of a valid command, including the verbosity level argument: 
+
+`python3 simulator.py <inst_file.txt> <data_file.txt> <config_file.txt> <result_file.txt> <verbosity_level>'
