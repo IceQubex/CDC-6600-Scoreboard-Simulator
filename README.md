@@ -31,6 +31,7 @@ Executing the simulation program through the Makefile will create a result.txt f
 ## Method 2 – Directly from the Command-line with custom configuration and data files:
 
 The program can be run directly from the command-line, by passing in the 4 necessary arguments as follows in the command-line:
-	`python3 ./simulator.py <inst_file.txt> <data_file.txt> <config_file.txt> <result_file.txt>`
+`python3 ./simulator.py <inst_file.txt> <data_file.txt> <config_file.txt> <result_file.txt>`
+	
 The above command will use the first 3 arguments `<inst_file.txt>, <data_file.txt> & <config_file.txt>` to set up and run the scoreboard simulation, and then produce an output in the `<result_file.txt>` file defined in the 4th argument. 
 
