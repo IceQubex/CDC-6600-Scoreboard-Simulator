@@ -28,6 +28,7 @@ The program can also be executed by using the Makefile. The Makefile defines 5 o
 > This option will delete the result.txt file, cleaning the directory and leaving only the necessary files for executing the program.
 
 Executing the simulation program through the Makefile will create a `result.txt` file with the output in the same directory as the `simulation.py` program. 
+
 ---
 ## Method 2 – Directly from the Command-line with custom configuration and data files:
 
