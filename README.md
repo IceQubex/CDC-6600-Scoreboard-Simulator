@@ -1,7 +1,7 @@
 # CDC-6600-Scoreboard-Simulator
 A program which simulates the CDC 6600 Scoreboard, which is able to implement dynamic scheduling of MIPS instructions. 
 
-The project was done in Python, and the final file is named as`simulator.py`. No additional external libraries were utilized for this project (the inbuilt `sys` library was included to be able to parse the command-line arguments). 
+The project was done in Python, and the final file is named as `simulator.py`. No additional external libraries were utilized for this project (the inbuilt `sys` library was included to be able to parse the command-line arguments). 
 
 The following lists 2 possible methods to execute the simulation program. 
 ## Method 1 – Utilizing the Makefile:
@@ -28,9 +28,7 @@ The program can also be executed by using the Makefile. The Makefile defines 5 o
 > This option will delete the result.txt file, cleaning the directory and leaving only the necessary files for executing the program.
 
 Executing the simulation program through the Makefile will create a `result.txt` file with the output in the same directory as the `simulation.py` program. 
-
 ---
- 
 ## Method 2 – Directly from the Command-line with custom configuration and data files:
 
 The program can be run directly from the command-line, by passing in the 4 necessary arguments as follows in the command-line:
